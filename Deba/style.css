@@ -5,7 +5,9 @@
 	margin: 0;
 	padding: 0;
  }
-
+html{
+	scroll-behavior: smooth;
+}
 body{
 	font-family: 'Poppins', sans-serif;
 }
@@ -74,7 +76,6 @@ section {
  	background-blend-mode: multiply;
  	background-size: cover;
  	background-repeat: no-repeat;
- 	background-attachment: fixed;
  	color: white;
  	font-size: 2em;
  }
@@ -87,6 +88,8 @@ section {
  }
  .sub-title{
  	letter-spacing:6px;
+ 	color: white;
+
  }
  .sub-title::before{
  	content: '';
